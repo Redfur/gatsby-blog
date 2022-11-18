@@ -1,6 +1,6 @@
 FROM node:18-alpine
 
-RUN apt-get update && apt-get install -y <list of packages>
+# RUN apt-get update && apt-get install -y <list of packages>
 
 RUN apk add --no-cache \
     make g++ && \
